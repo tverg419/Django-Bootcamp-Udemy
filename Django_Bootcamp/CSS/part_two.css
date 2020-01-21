@@ -1,0 +1,19 @@
+/* Basics Part 2 */
+body{
+  background: url(http://clipart-library.com/images_k/fruit-with-transparent-background/fruit-with-transparent-background-22.png);
+}
+div{
+  background-color: blue;
+  border-color: orange;
+  border-width: 2px;
+  border-style: groove;
+}
+
+p{
+  color: green;
+}
+
+span{
+  background: red;
+  color: black;
+}

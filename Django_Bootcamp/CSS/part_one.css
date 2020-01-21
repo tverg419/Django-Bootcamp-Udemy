@@ -1,0 +1,13 @@
+/* Basics Part 1 */
+/* This method is very general */
+h1{
+  color: blue;
+}
+/* RGB alpha allows for RGB plus transparency (alpha) */
+h2{
+  color: rgba(255,0,255, 0.3);
+}
+/* Most common hexcode */
+h3 {
+  color: #0895a8;
+}

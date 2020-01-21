@@ -1,0 +1,32 @@
+h1{
+  border: solid 4px black;
+  width: 41%;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Anton', sans-serif;
+  margin: auto;
+}
+.art{
+  margin: auto;
+}
+td{
+  height: 300px;
+  width: 150px;
+  border: solid 3px white;
+}
+
+#col1{
+  background-color: #5BC0EB
+}
+#col2{
+  background-color: #FDE74C
+}
+#col3{
+  background-color: #9BC53D
+}
+#col4{
+  background-color: #E55934
+}
+#col5{
+  background-color: #FA7921
+}
