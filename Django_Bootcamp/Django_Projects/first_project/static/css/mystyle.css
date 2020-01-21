@@ -1,0 +1,19 @@
+h1{
+  color:red;
+}
+
+.django_two{
+  border: 2px solid black;
+  margin: auto;
+  height: 500px;
+  width: 400px;
+}
+
+th{
+  padding-right: 100px;
+  padding-left: 75px;
+}
+
+#col1{
+  padding-left: 75px;
+}

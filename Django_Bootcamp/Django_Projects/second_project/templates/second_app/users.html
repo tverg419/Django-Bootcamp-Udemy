@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="{% static "css.second_app.css"%}">
+  </head>
+  <body>
+    <h1>Welcome to my UserInfo Database</h1>
+
+    <div class="user_table">
+        {% if user_content %}
+        <table>
+        <thead>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email Address</th>
+        </thead>
+          {% for users_info in user_content %}
+          <tr>
+            <td>{{  users_info.first_name  }}</td>
+            <td>{{  users_info.last_name  }}</td>
+            <td>{{  users_info.email  }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+        {% else %}
+        <p>No User Information was Found!</p>
+        {% endif %}
+
+
+    </div>
+  </body>
+</html>
